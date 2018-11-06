@@ -1,0 +1,214 @@
+/*!
+ * Start Bootstrap - One Page Wonder v5.0.0 (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Lato';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+header{
+	background: linear-gradient(to bottom, #240b36 0%, #c31432 50%, #ff5050 100%);
+	
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #c31432;
+  background: radial-gradient(ellipse at center, #c31432 0%, #240b36 100%);
+}
+
+#stars {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 16rem;
+  height: 100vh;
+  z-index: 1;
+}
+
+
+
+
+
+.donkeykongtext{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+	width: 100%;
+	z-index:1;
+    color: white;
+	font-size:60pt;
+	
+	
+	
+}
+.donkeykongsubtext{
+	text-align: center;
+	position: absolute;
+	top: 65%;
+	bottom: 65%;
+	width: 100%;
+	z-index:1;
+    color: white;
+	font-size:60pt;
+	
+	
+	
+}
+.donkeykongtext2{
+	color:white;
+    font-size: 18;
+	
+	
+	
+	
+}
+.donkeykongtext3{
+	color:white;
+    font-size: 60pt;
+	text-align:left;
+	padding-top:-10%;
+}
+.donkeykongtext4{
+	color:white;
+    font-size: 18;
+    text-align: left;
+	line-height: 20px;
+	
+	
+}
+.donkeykongtext5{
+    color:white;
+    font-size: 18;
+    text-align: center;
+	line-height: 20px;
+}
+.vidya{
+    left: 50%;
+    right: 50%;
+}
+@media (min-width: 992px) {
+  header.masthead {
+	
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+	background-color:white;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+	background-color:white;
+
+	
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+	background-color:white;
+  }
+}
+
+.bg-primary {
+  background-color: #b20a2c !important;
+}
+
+.btn-primary {
+  background-color: #b20a2c;
+  border-color: #b20a2c;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #b20a2c !important;
+  border-color: #b20a2c !important;
+}
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn-secondary {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #cc5500 !important;
+  border-color: #cc5500 !important;
+}
+
+.btn-secondary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+/* start mouse animation */
+.scroll-link {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mouse {
+  max-width: 2.5rem;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  right: 50%:
+}
+@keyframes scroll {
+  0%, 20% {
+  transform: translateY(0) scaleY(1);
+  }
+}
+@keyframes scroll {
+  ...
+  10% {
+  opacity: 1;
+  }
+  100% {
+  transform: translateY(36px) scaleY(2);
+  opacity: 0.01;
+  }
+}
+.scroll {
+  animation-name: scroll;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.650, -0.550, 0.250, 1.500);
+  animation-iteration-count: infinite;
+  transform-origin: 50% 20.5px;
+  will-change: transform;
+}
